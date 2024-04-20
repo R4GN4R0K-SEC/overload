@@ -1,7 +1,12 @@
 <h1 align="center">📡 DoS Tool</h1> 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> <img src="https://img.shields.io/github/forks/7zx/overload?style=social"> <img src="https://img.shields.io/github/stars/7zx/overload?style=social">
+<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> 
+<a href="https://github.com/R4GN4R0K-SEC"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
+<a href="https://github.com/R4GN4R0K-SEC"><img title="Version" src="https://img.shields.io/badge/Version-1.0.0-Brightgreen" ></a>
+<a href="https://twitter.com/R4gn4r0k_Sec"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-R4gn4r0k_Sec-blue"/></a>
+<a href="https://r4gn4r0k-sec.github.io"><img title="Website" src="https://img.shields.io/badge/Website-r4gn4r0ksec.github.io-gold"/></a>
+<a href="https://github.com/R4GN4R0K-SEC"><img title="Stars" src="https://img.shields.io/github/stars/R4GN4R0k-SEC?style=social" ></a>
 
 </div>
 
@@ -22,7 +27,7 @@
   <h2>Windows</h2><br>
 </div>
 
-Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
+Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/R4GN4R0K-SEC/overload/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
 
   ```
   make setup
@@ -46,7 +51,7 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/7zx/overload
+git clone https://github.com/R4GN4R0K-SEC/overload
 cd overload/
 
 make setup
@@ -64,7 +69,7 @@ make run
 pkg update
 pkg install python3 python3-pip git -y
 
-git clone https://github.com/7zx/overload
+git clone https://github.com/R4GN4R0K-SEC/overload
 cd overload/
 
 pip install -r requirements.txt
@@ -88,7 +93,7 @@ python3 overload.py
 │   ├───METHOD: HTTP
 │   ├───TIME: 600
 │   ├───THREADS: 800
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://https://R4GN4R0K-SEC.github.io/overload
 ```
 
 `Slowloris`: Just like an HTTP attack, Slowloris also aims to block other users from accessing a certain resource, but it does that by connecting virtual hosts with a slow connection to the victim. The victim will eventually have a lot of slow connections open and will block new users from accessing its resources.
@@ -100,7 +105,7 @@ python3 overload.py
 │   ├───TIME: 300
 │   ├───THREADS: 200
 │   ├───SLEEP TIME: 15
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://R4GN4R0K-SEC.github.io/overload
 ```
 
 Both `HTTP` and `Slowloris` attacks have a proxy version. If you choose to use proxy, then the threads will initialize and connect to elite-anonymity public proxies, and if not, your IP will be used on the requests. We do not own the proxy servers and do not respond for anything that they may do (like leaking your actual IP); they are hosted by volunteers and their addresses are retrieved through the [Proxy Scrape API](https://docs.proxyscrape.com/).
